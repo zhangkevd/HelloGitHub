@@ -12,6 +12,10 @@ public class HelloGitHub {
         
         System.out.println("the src is update again!");
 
+<<<<<<< HEAD
 	 System.out.println("the src is update again too!");
+=======
+//这是master2 的分支
+>>>>>>> master2
     }
 }
