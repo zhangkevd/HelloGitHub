@@ -7,7 +7,7 @@ import java.nio.channels.*;
 public class TypesInByteBuffer
 {
   static public void main( String args[] ) throws Exception {
-    ByteBuffer buffer = ByteBuffer.allocate( 64 );
+    ByteBuffer buffer = ByteBuffer.allocate( 20 );
 
     buffer.putInt( 30 );
     buffer.putLong( 7000000000000L );

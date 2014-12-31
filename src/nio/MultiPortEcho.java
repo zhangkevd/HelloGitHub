@@ -13,7 +13,6 @@ public class MultiPortEcho
 
   public MultiPortEcho( int ports[] ) throws IOException {
     this.ports = ports;
-
     go();
   }
 

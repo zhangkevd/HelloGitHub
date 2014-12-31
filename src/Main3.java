@@ -1,7 +1,13 @@
-public abstract class Main {
+public class Main3 extends Main{
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
-    public  abstract void test();
+
+    @Override
+    public void test() {
+        
+    }
+
+
 }
