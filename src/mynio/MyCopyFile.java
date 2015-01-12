@@ -14,6 +14,7 @@ import java.util.Random;
 public class MyCopyFile {
     public static void main(String[] args) throws IOException {
         if(args == null || args.length < 2) return ;
+
         args = new String[2];
         FileInputStream fileInputStream = new FileInputStream(args[0]);
         FileOutputStream fileOutputStream = new FileOutputStream(args[1]);
