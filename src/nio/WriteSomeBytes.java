@@ -14,7 +14,7 @@ public class WriteSomeBytes
 
     FileChannel fc = fout.getChannel();
 
-    ByteBuffer buffer = ByteBuffer.allocate( 1024 );
+      ByteBuffer buffer = ByteBuffer.allocate( 1024 );
 
     for (int i=0; i<message.length; ++i) {
       buffer.put( message[i] );
